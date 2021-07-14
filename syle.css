@@ -1,0 +1,19 @@
+ /* Default Styling  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: poppins;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
