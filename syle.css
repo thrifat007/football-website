@@ -16,4 +16,106 @@
     width: 80%;
     margin: auto;
   }
+/* Menu Styling  */
+
+header {
+    background-color: black;
+    overflow: hidden;
+    padding-bottom: 50px;
+  }
   
+  .container .nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav__menu i {
+    color: crimson;
+    cursor: pointer;
+    display: none;
+  }
+  .nav .nav__menu ul li {
+    display: inline-block;
+  }
+  .nav .nav__menu ul li:first-child {
+    display: none;
+  }
+  .nav .nav__menu ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 20px 0px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  .nav .nav__menu ul li a:hover {
+    color: crimson;
+  }
+  .nav .nav__btn a {
+    padding: 8px 30px;
+    background-color: crimson;
+    color: white;
+    border: 2px solid crimson;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+  }
+  .nav .nav__btn a:hover {
+    background-color: transparent;
+    border: 2px solid crimson;
+    color: crimson;
+  }
+  .nav .nav__btn a i {
+    margin-right: 10px;
+  }
+
+ /* Copa America Styling  */
+
+header .container .copa {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    padding-bottom: 60px;
+  }
+  header .container .copa .copa__left__content {
+    width: 55%;
+  }
+  header .container .copa .copa__left__content a {
+    padding: 8px 30px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid crimson;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    transition: all 0.4s ease;
+  }
+  header .container .copa .copa__left__content a i {
+    margin-left: 10px;
+  }
+  header .container .copa .copa__left__content a:hover {
+    background-color: transparent;
+    color: crimson;
+  }
+  
+  header .container .copa .copa__left__content h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  header .container .copa .copa__right__content {
+    width: 45%;
+  }
+  header .container .copa .copa__right__content .image img {
+    width: 100%;
+    animation: rotation 15s ease-in-out infinite;
+  }
+  @keyframes rotation {
+    100% {
+      transform: rotate(15deg);
+    }
+    0% {
+      transform: rotate(0deg);
+    }
+  }
