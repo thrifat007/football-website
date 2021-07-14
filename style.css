@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     outline: 0px;
-    font-family: poppins;
+    font-family: Montserrat;
   }
   ul {
     list-style: none;
@@ -289,13 +289,166 @@ footer {
   text-align: center;
 }
 .football .social_icons i {
-  color: #969bab;
+  color: #3C3C3C;
   font-size: 20px;
   margin: 10px;
 }
 .football .copyright p {
   text-align: center;
-  color: #969bab;
+  color: #3C3C3C;
   font-size: 14px;
   margin-top: 10px;
+}
+
+  /* Responsive Media Query  */
+
+
+@media screen and (max-width: 1184px) {
+  .container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1052px) {
+  .players__list .card {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 967px) {
+  header .container .copa .copa__left__content h1 {
+    font-size: 2.5rem;
+  }
+  .copa__higiligts .left__content h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 835px) {
+  .copa__higiligts .right__content {
+    width: 50%;
+  }
+  .nav .nav__menu ul {
+    display: none;
+  }
+  .nav__menu i {
+    display: block;
+  }
+  .bonus__section .bonus__content h1 {
+    font-size: 2.5rem;
+    color: #3c3c3c;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 665px) {
+  .copa__higiligts .left__content h1 {
+    font-size: 2rem;
+  }
+  .nav .nav__btn .login a {
+    padding: 5px;
+    font-size: 12px;
+  }
+  header {
+    padding-bottom: 0px;
+  }
+  header .container .copa {
+    margin-top: 70px;
+    display: block;
+  }
+  header .container .copa .copa__left__content {
+    text-align: left;
+    width: 100%;
+  }
+  header .container .copa .copa__left__content a {
+    padding: 7px;
+    font-size: 12px;
+  }
+  header .container .copa .copa__left__content h1 {
+    font-size: 2.5rem;
+  }
+  header .container .copa .copa__right__content {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  /* Players Media Query  */
+
+  .all_players {
+    margin-top: 50px;
+  }
+  .all_players .container .players__list {
+    display: block;
+    text-align: left;
+  }
+  .all_players .container .players__list .card {
+    margin-left: 0px;
+    width: 90%;
+  }
+  .all_players .container .players__list .card img {
+    width: 100%;
+  }
+
+ /* Highlights Media Query  */
+  .hilights {
+    margin-top: 50px;
+  }
+  .hilights .container .copa__higiligts {
+    display: block;
+  }
+  .hilights .container .copa__higiligts .left__content {
+    width: 100%;
+  }
+  .hilights .container .copa__higiligts .left__content a {
+    margin-bottom: 50px;
+  }
+  .hilights .container .copa__higiligts .right__content {
+    width: 100%;
+  }
+  .top_goal {
+    margin-top: 50px;
+  }
+  .top_goal h2 {
+    font-size: 2rem;
+  }
+
+   /* Footer Media Query  */
+  .football {
+    margin-top: 50px;
+  }
+  .football .container .image {
+    width: 60%;
+  }
+  .football .container .social_icons i {
+    margin: 5px;
+    font-size: 15px;
+  }
+  .football .container .copyright p {
+    color: #3C3C3C;
+  }
+  .bonus__section {
+    margin-top: 50px !important;
+  }
+  .bonus__section .bonus__content {
+    padding-left: 10px;
+  }
+  .bonus__section .bonus__content {
+    width: 50%;
+  }
+  .bonus__section .bonus__content h1 {
+    font-size: 0.9rem;
+    color: #3c3c3c;
+  }
+  .bonus__section .bonus__content p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+.bonus__section {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.bonus__section .bonus {
+  width: 50%;
+}
+.bonus__section .bonus img {
+  width: 90%;
+  float: left;
 }
