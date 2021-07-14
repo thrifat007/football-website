@@ -200,3 +200,37 @@ header .container .copa {
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgb(214, 240, 245);
 }
+
+  /* Top Goal Part Styling  */
+
+
+.top_goal {
+  margin-top: 150px;
+  text-align: center;
+}
+.top_goal h2 {
+  text-align: center;
+  color: crimson;
+  font-size: 3.5rem;
+  margin-bottom: 50px;
+}
+.top_goal span {
+  color: #969bab;
+  display: inline-block;
+  margin: 20px 5px;
+}
+.history {
+  background-image: url(images/messi.jpeg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(214, 240, 245);
+}
+.top__goal__content {
+  text-align: center;
+}
