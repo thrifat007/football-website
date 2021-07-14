@@ -210,7 +210,7 @@ header .container .copa {
 }
 .top_goal h2 {
   text-align: center;
-  color: crimson;
+  color: #ff471a;
   font-size: 3.5rem;
   margin-bottom: 50px;
 }
@@ -220,7 +220,7 @@ header .container .copa {
   margin: 20px 5px;
 }
 .history {
-  background-image: url(images/messi.jpeg);
+  background-image: url(images/neymar.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,4 +233,69 @@ header .container .copa {
 }
 .top__goal__content {
   text-align: center;
+}
+
+  /* Bonus Part Styling  */
+
+.bonus__section {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+.bonus__section .bonus {
+  width: 50%;
+}
+.bonus__section .bonus img {
+  width: 90%;
+  float: left;
+}
+.bonus__section .bonus__content {
+  width: 40%;
+  padding-left: 40px;
+}
+.bonus__section .bonus__content h1 {
+  font-size: 3rem;
+  color: #3c3c3c;
+}
+.bonus__section .bonus__content h1 span {
+  color: #ff471a;
+}
+.bonus__section .bonus__content p {
+  font-size: 15px;
+  color: #3c3c3c;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+
+  /* Footer Part Styling  */
+footer {
+  padding-bottom: 10px;
+}
+.football {
+  margin-top: 150px;
+}
+.football .image {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+.football .image img {
+  width: 100%;
+}
+.football .social_icons {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+.football .social_icons i {
+  color: #969bab;
+  font-size: 20px;
+  margin: 10px;
+}
+.football .copyright p {
+  text-align: center;
+  color: #969bab;
+  font-size: 14px;
+  margin-top: 10px;
 }
