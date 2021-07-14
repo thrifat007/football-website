@@ -31,7 +31,7 @@ header {
     align-items: center;
   }
   .nav__menu i {
-    color: crimson;
+    color: #ff471a;
     cursor: pointer;
     display: none;
   }
@@ -49,21 +49,21 @@ header {
     display: inline-block;
   }
   .nav .nav__menu ul li a:hover {
-    color: crimson;
+    color: #ff471a;
   }
   .nav .nav__btn a {
     padding: 8px 30px;
-    background-color: crimson;
+    background-color: #ff471a;
     color: white;
-    border: 2px solid crimson;
+    border: 2px solid #ff471a;
     font-size: 16px;
     border-radius: 5px;
     transition: all 0.4s ease;
   }
   .nav .nav__btn a:hover {
     background-color: transparent;
-    border: 2px solid crimson;
-    color: crimson;
+    border: 2px solid #ff471a;
+    color: #ff471a;
   }
   .nav .nav__btn a i {
     margin-right: 10px;
@@ -82,9 +82,9 @@ header .container .copa {
   }
   header .container .copa .copa__left__content a {
     padding: 8px 30px;
-    background-color: crimson;
+    background-color: #ff471a;
     color: white;
-    border: 1px solid crimson;
+    border: 1px solid #ff471a;
     font-size: 16px;
     border-radius: 5px;
     margin-top: 30px;
@@ -96,7 +96,7 @@ header .container .copa {
   }
   header .container .copa .copa__left__content a:hover {
     background-color: transparent;
-    color: crimson;
+    color: #ff471a;
   }
   
   header .container .copa .copa__left__content h1 {
@@ -119,3 +119,84 @@ header .container .copa {
       transform: rotate(0deg);
     }
   }
+
+ 
+ /* All players Styling  */
+.all_players {
+    margin-top: 100px;
+  }
+  .players__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .players__list .card {
+    width: 27%;
+    box-shadow: 0px 0px 10px rgb(214, 240, 245);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    height: 450px;
+  }
+  
+  .players__list .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .players__list .card .card__content h1 {
+    color: #3c3c3c;
+    margin-top: 10px;
+  }
+  .players__list .card .card__content p {
+    font-size: 16px;
+    color: #3c3c3c;
+    margin-top: 10px;
+  }
+
+  /* Copa America Highlights Styling  */
+
+
+.hilights {
+  margin-top: 150px;
+}
+.copa__higiligts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copa__higiligts .left__content {
+  width: 45%;
+}
+.copa__higiligts .left__content h1 {
+  font-size: 3.5rem;
+  color: #3c3c3c;
+}
+.copa__higiligts .left__content p {
+  font-size: 16;
+  color: #3c3c3c;
+  margin-top: 20px;
+}
+.copa__higiligts .left__content a {
+  padding: 8px 30px;
+  background-color: #ff471a;
+  color: white;
+  border: 1px solid #ff471a;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.copa__higiligts .right__content {
+  width: 40%;
+}
+.copa__higiligts .right__content .image {
+  width: 100%;
+  height: 100%;
+}
+.copa__higiligts .right__content .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(214, 240, 245);
+}
